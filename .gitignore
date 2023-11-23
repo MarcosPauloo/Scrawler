@@ -1,0 +1,4 @@
+# .gitignore
+
+#ignorar arquivos de configuração
+.env
