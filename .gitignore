@@ -2,3 +2,5 @@
 
 #ignorar arquivos de configuração
 .env
+
+selenium/

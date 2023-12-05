@@ -42,7 +42,7 @@ class QuotesSpider(scrapy.Spider):
         #    for a in aux:
         #        selector = Selector(text=a)
         #        subtitulosAux = ''.join(selector.xpath('*//a[@data-testid="search-snippet-title-link"]//text()').getall())
-        #        texto = ''.join(selector.xpath('.//div[@data-testid="search-snippet-base-body"]//p//text()').getall())
+        #        texto = ''.join(selector.xpath('z'//text()').getall())
         #        yield{
         #            'title': title,
         #            'subtitle': subtitulosAux,
